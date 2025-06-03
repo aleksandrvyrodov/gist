@@ -1,0 +1,93 @@
+{
+  "folders": [
+    {
+      "name": "Gist",
+      "path": "."
+    },
+  ],
+  "settings": {
+    /*"terminal.integrated.profiles.windows": {
+      "Remote Tetminal [W]": {
+        "path": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+        "args": [
+          "-i",
+          "~/.ssh/[key]",
+          "-t",
+          "[name host]",
+          "cd ~/[path] ; bash -l"
+        ],
+        "icon": "terminal-bash",
+        "color": "terminal.ansiCyan"
+      }
+    },
+    "terminal.integrated.profiles.linux": {
+      "Remote Tetminal": {
+        "path": "ssh",
+        "args": [
+          "-i",
+          "~/.ssh/[key]",
+          "-t",
+          "[name host]",
+          "cd ~/[path] ; bash -l"
+        ],
+        "icon": "terminal-bash",
+        "color": "terminal.ansiCyan"
+      }
+    },*/
+    "workbench.colorTheme": "Night Owl",
+    "workbench.colorCustomizations": {
+      "tab.activeBorder": "#00cc66",
+      "statusBar.background": "#0d8348",
+      "statusBar.border": "#00cc66",
+      "statusBar.foreground": "#f7f7f7",
+      "statusBarItem.hoverBackground": "#17374D",
+      "statusBarItem.activeBackground": "#4099D5"
+    },
+    "workbench.editor.wrapTabs": true,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    "editor.fontSize": 14,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnType": false,
+    "editor.suggest.showStatusBar": true,
+    "editor.detectIndentation": false,
+    "diffEditor.codeLens": true,
+    "files.trimTrailingWhitespace": false,
+    "files.autoSave": "off",
+    "files.autoGuessEncoding": true,
+  	"files.eol": "\n",
+    /* "files.associations": {
+			"*.html": "twig"
+		}, */
+    "html.format.wrapLineLength": 0,
+    "html.format.enable": true,
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[twig]": {
+      "editor.defaultFormatter": "mblode.twig-language-2"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "Wscats.eno",
+    },
+    "[markdown]": {
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      },
+      "editor.renderWhitespace": "boundary",
+      "files.trimTrailingWhitespace": false,
+    },
+    "emmet.includeLanguages": {
+      "twig": "html"
+    },
+    "twig-language-2.indentStyle": "space",
+    "twig-language-2.tabSize": 2,
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+  },
+}
